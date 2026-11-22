@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "note": "Original concept illustrations, not official game assets. Review before commercial release. Remote URLs must be HTTPS and rights cleared.",
+  "games": {
+    "gta-iii": {
+      "iconLocal": "assets/games/gta-iii/icon.webp",
+      "coverLocal": "assets/games/gta-iii/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    },
+    "gta-vice-city": {
+      "iconLocal": "assets/games/gta-vice-city/icon.webp",
+      "coverLocal": "assets/games/gta-vice-city/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    },
+    "gta-san-andreas": {
+      "iconLocal": "assets/games/gta-san-andreas/icon.webp",
+      "coverLocal": "assets/games/gta-san-andreas/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    },
+    "gta-iv": {
+      "iconLocal": "assets/games/gta-iv/icon.webp",
+      "coverLocal": "assets/games/gta-iv/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    },
+    "gta-v": {
+      "iconLocal": "assets/games/gta-v/icon.webp",
+      "coverLocal": "assets/games/gta-v/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    },
+    "gta-vi": {
+      "iconLocal": "assets/games/gta-vi/icon.webp",
+      "coverLocal": "assets/games/gta-vi/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    },
+    "rdr2": {
+      "iconLocal": "assets/games/rdr2/icon.webp",
+      "coverLocal": "assets/games/rdr2/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    },
+    "minecraft": {
+      "iconLocal": "assets/games/minecraft/icon.webp",
+      "coverLocal": "assets/games/minecraft/cover.webp",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "source": "generated_original",
+      "rightsStatus": "review_before_release"
+    }
+  }
+}

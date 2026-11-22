@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "gameId": "gta-v",
+  "lastReviewed": "2026-11-22",
+  "contentStatus": "research_sample_not_complete",
+  "completeness": "partial",
+  "cheats": [
+    {
+      "id": "gta-v-health",
+      "title": "Restore health and armor",
+      "description": "Activates restore health and armor.",
+      "category": "health",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "TURTLE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-invincible",
+      "title": "Temporary invincibility",
+      "description": "Activates temporary invincibility.",
+      "category": "health",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "PAINKILLER",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-parachute",
+      "title": "Equip parachute",
+      "description": "Activates equip parachute.",
+      "category": "equipment",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "SKYDIVE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-jump",
+      "title": "Super jump",
+      "description": "Activates super jump.",
+      "category": "player",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "HOPTOIT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-gravity",
+      "title": "Lower gravity",
+      "description": "Activates lower gravity.",
+      "category": "world",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "FLOATER",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-slowmotion",
+      "title": "Slow motion",
+      "description": "Activates slow motion.",
+      "category": "world",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "SLOWMO",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-drunk",
+      "title": "Drunk mode",
+      "description": "Activates drunk mode.",
+      "category": "player",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "LIQUOR",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-fall",
+      "title": "Skyfall",
+      "description": "Activates skyfall.",
+      "category": "player",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "SKYFALL",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-explode",
+      "title": "Explosive bullets",
+      "description": "Activates explosive bullets.",
+      "category": "weapons",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "HIGHEX",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-melee",
+      "title": "Explosive melee",
+      "description": "Activates explosive melee.",
+      "category": "weapons",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "HOTHANDS",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-slide",
+      "title": "Slippery vehicle handling",
+      "description": "Activates slippery vehicle handling.",
+      "category": "vehicles",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "v"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "SNOWDAY",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    }
+  ]
+}

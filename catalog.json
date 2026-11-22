@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.11.22.handoff1",
+  "generatedAt": "2026-11-22",
+  "publisher": "Independent reference project — not affiliated with publishers",
+  "games": [
+    {
+      "id": "gta-iii",
+      "name": "Grand Theft Auto III",
+      "shortName": "GTA III",
+      "description": "Independent reference collection for Grand Theft Auto III.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#254A3A",
+      "supportedPlatformIds": [
+        "pc",
+        "ps2",
+        "xbox-original"
+      ],
+      "editionIds": [
+        "classic",
+        "definitive"
+      ],
+      "dataFile": "games/gta-iii.json",
+      "dataStatus": "partial_research_sample",
+      "localIconAsset": "assets/games/gta-iii/icon.webp",
+      "localCoverAsset": "assets/games/gta-iii/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "partial",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    },
+    {
+      "id": "gta-vice-city",
+      "name": "Grand Theft Auto: Vice City",
+      "shortName": "Vice City",
+      "description": "Independent reference collection for Grand Theft Auto: Vice City.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#254A3A",
+      "supportedPlatformIds": [
+        "pc",
+        "ps2",
+        "xbox-original"
+      ],
+      "editionIds": [
+        "classic",
+        "definitive"
+      ],
+      "dataFile": "games/gta-vice-city.json",
+      "dataStatus": "partial_research_sample",
+      "localIconAsset": "assets/games/gta-vice-city/icon.webp",
+      "localCoverAsset": "assets/games/gta-vice-city/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "partial",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    },
+    {
+      "id": "gta-san-andreas",
+      "name": "Grand Theft Auto: San Andreas",
+      "shortName": "San Andreas",
+      "description": "Independent reference collection for Grand Theft Auto: San Andreas.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#254A3A",
+      "supportedPlatformIds": [
+        "pc",
+        "ps2",
+        "xbox-original"
+      ],
+      "editionIds": [
+        "classic",
+        "definitive"
+      ],
+      "dataFile": "games/gta-san-andreas.json",
+      "dataStatus": "partial_research_sample",
+      "localIconAsset": "assets/games/gta-san-andreas/icon.webp",
+      "localCoverAsset": "assets/games/gta-san-andreas/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "partial",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    },
+    {
+      "id": "gta-iv",
+      "name": "Grand Theft Auto IV",
+      "shortName": "GTA IV",
+      "description": "Independent reference collection for Grand Theft Auto IV.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#254A3A",
+      "supportedPlatformIds": [
+        "pc",
+        "ps3",
+        "xbox-360"
+      ],
+      "editionIds": [
+        "base"
+      ],
+      "dataFile": "games/gta-iv.json",
+      "dataStatus": "partial_research_sample",
+      "localIconAsset": "assets/games/gta-iv/icon.webp",
+      "localCoverAsset": "assets/games/gta-iv/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "partial",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    },
+    {
+      "id": "gta-v",
+      "name": "Grand Theft Auto V",
+      "shortName": "GTA V",
+      "description": "Independent reference collection for Grand Theft Auto V.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#254A3A",
+      "supportedPlatformIds": [
+        "pc",
+        "ps3",
+        "ps4",
+        "ps5",
+        "xbox-360",
+        "xbox-one",
+        "xbox-series"
+      ],
+      "editionIds": [
+        "story"
+      ],
+      "dataFile": "games/gta-v.json",
+      "dataStatus": "partial_research_sample",
+      "localIconAsset": "assets/games/gta-v/icon.webp",
+      "localCoverAsset": "assets/games/gta-v/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "partial",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    },
+    {
+      "id": "gta-vi",
+      "name": "Grand Theft Auto VI",
+      "shortName": "GTA VI",
+      "description": "Independent reference collection for Grand Theft Auto VI.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#254A3A",
+      "supportedPlatformIds": [
+        "ps5",
+        "xbox-series"
+      ],
+      "editionIds": [
+        "base"
+      ],
+      "dataFile": "games/gta-vi.json",
+      "dataStatus": "awaiting_verification",
+      "localIconAsset": "assets/games/gta-vi/icon.webp",
+      "localCoverAsset": "assets/games/gta-vi/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "none_verified",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    },
+    {
+      "id": "rdr2",
+      "name": "Red Dead Redemption 2",
+      "shortName": "RDR2",
+      "description": "Independent reference collection for Red Dead Redemption 2.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#253F59",
+      "supportedPlatformIds": [
+        "pc",
+        "ps4",
+        "xbox-one"
+      ],
+      "editionIds": [
+        "story"
+      ],
+      "dataFile": "games/rdr2.json",
+      "dataStatus": "partial_research_sample",
+      "localIconAsset": "assets/games/rdr2/icon.webp",
+      "localCoverAsset": "assets/games/rdr2/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "partial",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "shortName": "Minecraft",
+      "description": "Independent reference collection for Minecraft.",
+      "iconUrl": null,
+      "coverImageUrl": null,
+      "artworkRights": "generated_original_review_required",
+      "themeColor": "#253F59",
+      "supportedPlatformIds": [
+        "pc",
+        "ps4",
+        "ps5",
+        "xbox-one",
+        "xbox-series",
+        "android",
+        "ios"
+      ],
+      "editionIds": [
+        "java",
+        "bedrock"
+      ],
+      "dataFile": "games/minecraft.json",
+      "dataStatus": "partial_research_sample",
+      "localIconAsset": "assets/games/minecraft/icon.webp",
+      "localCoverAsset": "assets/games/minecraft/cover.webp",
+      "imageAttribution": "Original generated illustration; not official game artwork",
+      "cheatCoverage": "partial",
+      "displayCheatCount": null,
+      "platformDisplayPolicy": "show_only_if_inputs_exist"
+    }
+  ]
+}

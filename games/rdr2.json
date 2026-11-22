@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "gameId": "rdr2",
+  "lastReviewed": "2026-11-22",
+  "contentStatus": "research_sample_not_complete",
+  "completeness": "partial",
+  "cheats": [
+    {
+      "id": "rdr2-money",
+      "title": "Add $500",
+      "description": "Activates add $500.",
+      "category": "money",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "rdr",
+          "rdr2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phrase",
+          "value": "Greed is now a virtue",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "xbox-one"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "rdr2-cores",
+      "title": "Refill player meters",
+      "description": "Activates refill player meters.",
+      "category": "health",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "rdr",
+          "rdr2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phrase",
+          "value": "You flourish before you die",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "xbox-one"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "rdr2-weapons",
+      "title": "Equip basic weapons",
+      "description": "Activates equip basic weapons.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "rdr",
+          "rdr2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phrase",
+          "value": "A simple life, a beautiful death",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "xbox-one"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "rdr2-deadeye2",
+      "title": "Set Dead Eye level two",
+      "description": "Activates set dead eye level two.",
+      "category": "player",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "rdr",
+          "rdr2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phrase",
+          "value": "Make me better",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "xbox-one"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    }
+  ]
+}

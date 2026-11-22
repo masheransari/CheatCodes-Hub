@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "gameId": "gta-iii",
+  "lastReviewed": "2026-11-22",
+  "contentStatus": "research_sample_not_complete",
+  "completeness": "partial",
+  "cheats": [
+    {
+      "id": "gta-iii-health",
+      "title": "Restore health",
+      "description": "Activates restore health.",
+      "category": "health",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "GESUNDHEIT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iii-armor",
+      "title": "Restore armor",
+      "description": "Activates restore armor.",
+      "category": "health",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "TORTOISE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iii-money",
+      "title": "Add money",
+      "description": "Activates add money.",
+      "category": "money",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "IFIWEREARICHMAN",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iii-weapons",
+      "title": "Get weapons",
+      "description": "Activates get weapons.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "GUNSGUNSGUNS",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iii-tank",
+      "title": "Spawn tank",
+      "description": "Activates spawn tank.",
+      "category": "vehicles",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "GIVEUSATANK",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iii-wanted-clear",
+      "title": "Clear wanted stars",
+      "description": "Activates clear wanted stars.",
+      "category": "wanted",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "NOPOLICEPLEASE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iii-wanted-add",
+      "title": "Raise wanted stars",
+      "description": "Activates raise wanted stars.",
+      "category": "wanted",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "MOREPOLICEPLEASE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iii-explode-cars",
+      "title": "Explode nearby vehicles",
+      "description": "Activates explode nearby vehicles.",
+      "category": "vehicles",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta3_pc",
+          "gta3_db"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "BANGBANGBANG",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "reviewDate": "2026-11-22",
+  "sources": [
+    {
+      "id": "gta3_pc",
+      "title": "PC Gamer GTA III cheats",
+      "url": "https://www.pcgamer.com/gta-3-cheats-pc/",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "gta3_db",
+      "title": "GTADb GTA III",
+      "url": "https://gtadb.io/gta-3/cheats/pc",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "vc",
+      "title": "GTAside Vice City",
+      "url": "https://gtaside.com/tips/vice-city/cheat-codes/",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "vc2",
+      "title": "Vandal Vice City",
+      "url": "https://vandal.elespanol.com/en/grand-theft-auto-vice-city/grand-theft-auto-vice-city-pc-cheats.html",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "sa",
+      "title": "The GTA Place San Andreas",
+      "url": "https://m.thegtaplace.com/sanandreas/pc-cheats/",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "sa2",
+      "title": "GTA San Andreas Net",
+      "url": "https://www.gtasanandreas.net/cheats/pc.php",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "iv",
+      "title": "Grand Theft Wiki GTA IV",
+      "url": "https://www.grandtheftwiki.com/GTA_IV_Cheats",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "iv2",
+      "title": "GamesRadar GTA IV",
+      "url": "https://www.gamesradar.com/games/action/gta-4-cheats-codes/",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "v",
+      "title": "GTABase GTA V PC",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/gta-5-cheats-pc-full-list-of-cheat-codes",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "v2",
+      "title": "Rockstar GTA V support",
+      "url": "https://support.rockstargames.com/articles/4ewFY12QOE4O7V1uWDEekt/information-about-saving-and-achievements-while-using-gta-v-cheat-codes",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "vi",
+      "title": "PC Gamer GTA VI recent reporting",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "vi2",
+      "title": "ActuallyOP GTA VI reporting",
+      "url": "https://actuallyop.com/gta6/cheat-codes",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "rdr",
+      "title": "Game Informer RDR2",
+      "url": "https://gameinformer.com/2018/11/16/heres-all-of-red-dead-redemption-iis-cheat-codes-so-far",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "rdr2",
+      "title": "PowerPyx RDR2",
+      "url": "https://www.powerpyx.com/red-dead-redemption-2-cheats/",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "mc",
+      "title": "Minecraft official commands",
+      "url": "https://www.minecraft.net/en-us/article/minecraft-commands",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "mc2",
+      "title": "Microsoft Learn Minecraft commands",
+      "url": "https://learn.microsoft.com/en-us/minecraft/creator/commands/commands/",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "github_ddg",
+      "title": "DuckDuckGo GTA SA cheats JSON",
+      "url": "https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/share/goodie/cheat_sheets/json/gta-san-andreas.json",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    },
+    {
+      "id": "github_sa",
+      "title": "Open source GTA SA mobile cheats",
+      "url": "https://github.com/haithamaouati/GTAsa",
+      "reusePermission": "not_verified",
+      "purpose": "reference_only"
+    }
+  ]
+}

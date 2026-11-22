@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "gameId": "minecraft",
+  "lastReviewed": "2026-11-22",
+  "contentStatus": "research_sample_not_complete",
+  "completeness": "partial",
+  "cheats": [
+    {
+      "id": "minecraft-gamemode",
+      "title": "Change game mode",
+      "description": "Activates change game mode.",
+      "category": "world",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "mc",
+          "mc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "command",
+          "value": "/gamemode creative",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "java"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "minecraft-time",
+      "title": "Set daytime",
+      "description": "Activates set daytime.",
+      "category": "world",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "mc",
+          "mc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "command",
+          "value": "/time set day",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "java"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "minecraft-weather",
+      "title": "Set clear weather",
+      "description": "Activates set clear weather.",
+      "category": "world",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "mc",
+          "mc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "command",
+          "value": "/weather clear",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "java"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    }
+  ]
+}

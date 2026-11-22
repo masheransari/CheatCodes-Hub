@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.11.22.handoff1",
+  "catalogPath": "catalog.json",
+  "sourcesPath": "sources.json",
+  "gameFiles": {
+    "gta-iii": "games/gta-iii.json",
+    "gta-vice-city": "games/gta-vice-city.json",
+    "gta-san-andreas": "games/gta-san-andreas.json",
+    "gta-iv": "games/gta-iv.json",
+    "gta-v": "games/gta-v.json",
+    "gta-vi": "games/gta-vi.json",
+    "rdr2": "games/rdr2.json",
+    "minecraft": "games/minecraft.json"
+  },
+  "updateStrategy": "cache_first_background_revalidate",
+  "contentStatus": "partial_research_sample_not_release_ready",
+  "files": {
+    "catalog.json": {
+      "sha256": "e2ffb7b4b68571491f6cb5b9409db8eb9aeb9460907fade912f62ee2e6d666e8",
+      "bytes": 7566
+    },
+    "sources.json": {
+      "sha256": "bf41e972bdec2d6c67114e3b04c1d62d54c1398ef6b8d681dc837a538791d8cb",
+      "bytes": 4204
+    },
+    "games/rdr2.json": {
+      "sha256": "e569fd65d4e19db25f9480d634b36ae0e434c9add57834c033f97388719677fe",
+      "bytes": 2935
+    },
+    "games/gta-v.json": {
+      "sha256": "d4a2f634bec45a5a35a46da18341113d44f61781cf93182df6f9bac5c89aa27c",
+      "bytes": 6884
+    },
+    "games/minecraft.json": {
+      "sha256": "ce4710a8172ebd5144b471b003570455deb2bdc7d69e3a27f9227ec18892d245",
+      "bytes": 2086
+    },
+    "games/gta-vice-city.json": {
+      "sha256": "244ebda0c3dda7e5c9d6e0b2aca2aaab29fefee2600da3602125d6d80ace6f60",
+      "bytes": 5360
+    },
+    "games/gta-iv.json": {
+      "sha256": "4c49f28e457483b6572d598c0be1c1eca0f636b7ceb93257800cea91d6f4a7d9",
+      "bytes": 2254
+    },
+    "games/gta-vi.json": {
+      "sha256": "dbc94dafdfb79ff8a43f496cefbd38c7cb94234fea08c071345e5ea37921a048",
+      "bytes": 163
+    },
+    "games/gta-san-andreas.json": {
+      "sha256": "370bb8c67498ac2287b7067eadeb055219ccb4319011a341ff7b534e56fc961c",
+      "bytes": 7346
+    },
+    "games/gta-iii.json": {
+      "sha256": "0ca8fa7e0462f0998a86a2dd19057bc2965c91470425767a000ea0f0167710f9",
+      "bytes": 5364
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "gameId": "gta-iv",
+  "lastReviewed": "2026-11-22",
+  "contentStatus": "research_sample_not_complete",
+  "completeness": "partial",
+  "cheats": [
+    {
+      "id": "gta-iv-health-armor",
+      "title": "Health and armor",
+      "description": "Activates health and armor.",
+      "category": "health",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "iv",
+          "iv2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "362-555-0100",
+          "platformIds": [
+            "pc",
+            "ps3",
+            "xbox-360"
+          ],
+          "editionIds": [
+            "base"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iv-health-weapons",
+      "title": "Health and weapon set",
+      "description": "Activates health and weapon set.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "iv",
+          "iv2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "482-555-0100",
+          "platformIds": [
+            "pc",
+            "ps3",
+            "xbox-360"
+          ],
+          "editionIds": [
+            "base"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-iv-wanted-clear",
+      "title": "Clear wanted level",
+      "description": "Activates clear wanted level.",
+      "category": "wanted",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "iv",
+          "iv2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "267-555-0100",
+          "platformIds": [
+            "pc",
+            "ps3",
+            "xbox-360"
+          ],
+          "editionIds": [
+            "base"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    }
+  ]
+}

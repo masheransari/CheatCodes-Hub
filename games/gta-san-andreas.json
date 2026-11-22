@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "gameId": "gta-san-andreas",
+  "lastReviewed": "2026-11-22",
+  "contentStatus": "research_sample_not_complete",
+  "completeness": "partial",
+  "cheats": [
+    {
+      "id": "gta-san-andreas-health-money",
+      "title": "Health armor and cash",
+      "description": "Activates health armor and cash.",
+      "category": "health",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "HESOYAM",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-jetpack",
+      "title": "Equip jetpack",
+      "description": "Activates equip jetpack.",
+      "category": "vehicles",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "ROCKETMAN",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-tank",
+      "title": "Spawn Rhino tank",
+      "description": "Activates spawn rhino tank.",
+      "category": "vehicles",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "AIWPRTON",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-weapons1",
+      "title": "Weapon set one",
+      "description": "Activates weapon set one.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "LXGIWYL",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-weapons2",
+      "title": "Weapon set two",
+      "description": "Activates weapon set two.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "PROFESSIONALSKIT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-weapons3",
+      "title": "Weapon set three",
+      "description": "Activates weapon set three.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "UZUMYMW",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-wanted-clear",
+      "title": "Clear wanted stars",
+      "description": "Activates clear wanted stars.",
+      "category": "wanted",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "TURNDOWNTHEHEAT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-wanted-never",
+      "title": "Prevent new wanted level",
+      "description": "Activates prevent new wanted level.",
+      "category": "wanted",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "AEZAKMI",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-parachute",
+      "title": "Equip parachute",
+      "description": "Activates equip parachute.",
+      "category": "equipment",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "AIYPWZQP",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-hydra",
+      "title": "Spawn Hydra aircraft",
+      "description": "Activates spawn hydra aircraft.",
+      "category": "vehicles",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "JUMPJET",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-san-andreas-ammo",
+      "title": "Unlimited ammunition",
+      "description": "Activates unlimited ammunition.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "sa",
+          "sa2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "FULLCLIP",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    }
+  ]
+}

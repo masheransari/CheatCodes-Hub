@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "gameId": "gta-vice-city",
+  "lastReviewed": "2026-11-22",
+  "contentStatus": "research_sample_not_complete",
+  "completeness": "partial",
+  "cheats": [
+    {
+      "id": "gta-vice-city-health",
+      "title": "Restore health",
+      "description": "Activates restore health.",
+      "category": "health",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "ASPIRINE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vice-city-armor",
+      "title": "Restore armor",
+      "description": "Activates restore armor.",
+      "category": "health",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "PRECIOUSPROTECTION",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vice-city-tank",
+      "title": "Spawn Rhino tank",
+      "description": "Activates spawn rhino tank.",
+      "category": "vehicles",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "PANZER",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vice-city-weapon1",
+      "title": "Weapon set one",
+      "description": "Activates weapon set one.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "THUGSTOOLS",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vice-city-weapon2",
+      "title": "Weapon set two",
+      "description": "Activates weapon set two.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "PROFESSIONALTOOLS",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vice-city-weapon3",
+      "title": "Weapon set three",
+      "description": "Activates weapon set three.",
+      "category": "weapons",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "NUTTERTOOLS",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vice-city-wanted-clear",
+      "title": "Clear wanted stars",
+      "description": "Activates clear wanted stars.",
+      "category": "wanted",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "LEAVEMEALONE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vice-city-wanted-add",
+      "title": "Raise wanted stars",
+      "description": "Activates raise wanted stars.",
+      "category": "wanted",
+      "verification": {
+        "status": "cross_referenced_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "vc",
+          "vc2"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "YOUWONTTAKEMEALIVE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    }
+  ]
+}
