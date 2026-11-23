@@ -2,20 +2,22 @@
   "schemaVersion": 1,
   "gameId": "gta-iv",
   "lastReviewed": "2026-11-22",
-  "contentStatus": "research_sample_not_complete",
-  "completeness": "partial",
+  "contentStatus": "research_expanded_not_device_tested",
+  "completeness": "partial_base_game_only",
   "cheats": [
     {
-      "id": "gta-iv-health-armor",
-      "title": "Health and armor",
-      "description": "Activates health and armor.",
+      "id": "gta-iv-armor",
+      "title": "Refill health and armor",
+      "description": "Refill health and armor.",
       "category": "health",
+      "requiresUnlock": false,
+      "onlineOnly": false,
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "iv",
-          "iv2"
+          "iv2",
+          "gta4_gamesradar"
         ]
       },
       "inputs": [
@@ -31,21 +33,19 @@
             "base"
           ]
         }
-      ],
-      "requiresUnlock": false,
-      "onlineOnly": false
+      ]
     },
     {
       "id": "gta-iv-health-weapons",
-      "title": "Health and weapon set",
-      "description": "Activates health and weapon set.",
-      "category": "weapons",
+      "title": "Refill health and receive weapons",
+      "description": "Refill health and receive weapons.",
+      "category": "health",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "iv",
-          "iv2"
+          "iv2",
+          "gta4_gamesradar"
         ]
       },
       "inputs": [
@@ -66,16 +66,76 @@
       "onlineOnly": false
     },
     {
-      "id": "gta-iv-wanted-clear",
-      "title": "Clear wanted level",
-      "description": "Activates clear wanted level.",
-      "category": "wanted",
+      "id": "gta-iv-weapons-basic",
+      "title": "Obtain basic weapons",
+      "description": "Obtain basic weapons.",
+      "category": "weapons",
+      "requiresUnlock": false,
+      "onlineOnly": false,
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "iv",
-          "iv2"
+          "iv2",
+          "gta4_gamesradar"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "486-555-0150",
+          "platformIds": [
+            "pc",
+            "ps3",
+            "xbox-360"
+          ],
+          "editionIds": [
+            "base"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gta-iv-weapons-advanced",
+      "title": "Obtain advanced weapons",
+      "description": "Obtain advanced weapons.",
+      "category": "weapons",
+      "requiresUnlock": false,
+      "onlineOnly": false,
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "iv2",
+          "gta4_gamesradar"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "486-555-0100",
+          "platformIds": [
+            "pc",
+            "ps3",
+            "xbox-360"
+          ],
+          "editionIds": [
+            "base"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gta-iv-wanted-clear",
+      "title": "Clear wanted stars",
+      "description": "Clear wanted stars.",
+      "category": "wanted",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "iv2",
+          "gta4_gamesradar"
         ]
       },
       "inputs": [
@@ -94,6 +154,66 @@
       ],
       "requiresUnlock": false,
       "onlineOnly": false
+    },
+    {
+      "id": "gta-iv-wanted-up",
+      "title": "Increase wanted stars",
+      "description": "Increase wanted stars.",
+      "category": "wanted",
+      "requiresUnlock": false,
+      "onlineOnly": false,
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "iv2",
+          "gta4_gamesradar"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "267-555-0150",
+          "platformIds": [
+            "pc",
+            "ps3",
+            "xbox-360"
+          ],
+          "editionIds": [
+            "base"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gta-iv-weather",
+      "title": "Change weather",
+      "description": "Change weather.",
+      "category": "world",
+      "requiresUnlock": false,
+      "onlineOnly": false,
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "iv2",
+          "gta4_gamesradar"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "468-555-0100",
+          "platformIds": [
+            "pc",
+            "ps3",
+            "xbox-360"
+          ],
+          "editionIds": [
+            "base"
+          ]
+        }
+      ]
     }
   ]
 }

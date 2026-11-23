@@ -2,19 +2,21 @@
   "schemaVersion": 1,
   "gameId": "gta-v",
   "lastReviewed": "2026-11-22",
-  "contentStatus": "research_sample_not_complete",
-  "completeness": "partial",
+  "contentStatus": "research_expanded_not_device_tested",
+  "completeness": "platform_coverage_extended_pending_testing",
   "cheats": [
     {
       "id": "gta-v-health",
-      "title": "Restore health and armor",
-      "description": "Activates restore health and armor.",
+      "title": "Full health and armor",
+      "description": "Full health and armor.",
       "category": "health",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
@@ -27,6 +29,111 @@
           "editionIds": [
             "story"
           ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "B, LB, Y, RT, A, X, B, RIGHT, X, LB, LB, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-887-853",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-weapons",
+      "title": "Obtain weapons and ammunition",
+      "description": "Obtain weapons and ammunition.",
+      "category": "weapons",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "TOOLUP",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "Y, RT, LEFT, LB, A, RIGHT, Y, DOWN, X, LB, LB, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-866-587",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
         }
       ],
       "requiresUnlock": false,
@@ -35,13 +142,15 @@
     {
       "id": "gta-v-invincible",
       "title": "Temporary invincibility",
-      "description": "Activates temporary invincibility.",
+      "description": "Temporary invincibility.",
       "category": "health",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
@@ -54,29 +163,40 @@
           "editionIds": [
             "story"
           ]
-        }
-      ],
-      "requiresUnlock": false,
-      "onlineOnly": false
-    },
-    {
-      "id": "gta-v-parachute",
-      "title": "Equip parachute",
-      "description": "Activates equip parachute.",
-      "category": "equipment",
-      "verification": {
-        "status": "single_source_not_device_tested",
-        "lastReviewed": "2026-11-22",
-        "sourceIds": [
-          "v"
-        ]
-      },
-      "inputs": [
+        },
         {
-          "method": "typed_code",
-          "value": "SKYDIVE",
+          "method": "button_sequence",
+          "value": "RIGHT, X, RIGHT, LEFT, RIGHT, R1, RIGHT, LEFT, X, TRIANGLE",
           "platformIds": [
-            "pc"
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RIGHT, A, RIGHT, LEFT, RIGHT, RB, RIGHT, LEFT, A, Y",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-724-654-5537",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
           ],
           "editionIds": [
             "story"
@@ -87,23 +207,197 @@
       "onlineOnly": false
     },
     {
-      "id": "gta-v-jump",
-      "title": "Super jump",
-      "description": "Activates super jump.",
-      "category": "player",
+      "id": "gta-v-wanted-up",
+      "title": "Increase wanted level",
+      "description": "Increase wanted level.",
+      "category": "wanted",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
         {
           "method": "typed_code",
-          "value": "HOPTOIT",
+          "value": "FUGITIVE",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RB, RB, B, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-3844-8483",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-wanted-down",
+      "title": "Decrease wanted level",
+      "description": "Decrease wanted level.",
+      "category": "wanted",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "LAWYERUP",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RB, RB, B, RT, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-5299-3787",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-ability",
+      "title": "Restore special ability",
+      "description": "Restore special ability.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "POWERUP",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "X, X, SQUARE, R1, L1, X, RIGHT, LEFT, X",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "A, A, X, RB, LB, A, RIGHT, LEFT, A",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-769-3787",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
           ],
           "editionIds": [
             "story"
@@ -115,14 +409,16 @@
     },
     {
       "id": "gta-v-gravity",
-      "title": "Lower gravity",
-      "description": "Activates lower gravity.",
+      "title": "Reduce gravity",
+      "description": "Reduce gravity.",
       "category": "world",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
@@ -135,29 +431,40 @@
           "editionIds": [
             "story"
           ]
-        }
-      ],
-      "requiresUnlock": false,
-      "onlineOnly": false
-    },
-    {
-      "id": "gta-v-slowmotion",
-      "title": "Slow motion",
-      "description": "Activates slow motion.",
-      "category": "world",
-      "verification": {
-        "status": "single_source_not_device_tested",
-        "lastReviewed": "2026-11-22",
-        "sourceIds": [
-          "v"
-        ]
-      },
-      "inputs": [
+        },
         {
-          "method": "typed_code",
-          "value": "SLOWMO",
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT",
           "platformIds": [
-            "pc"
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, LB, RB, LB, RIGHT, LEFT, LB, LEFT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-356-2837",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
           ],
           "editionIds": [
             "story"
@@ -168,23 +475,63 @@
       "onlineOnly": false
     },
     {
-      "id": "gta-v-drunk",
-      "title": "Drunk mode",
-      "description": "Activates drunk mode.",
+      "id": "gta-v-jump",
+      "title": "Increase jump height",
+      "description": "Increase jump height.",
       "category": "player",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
         {
           "method": "typed_code",
-          "value": "LIQUOR",
+          "value": "HOPTOIT",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, Y, Y, RIGHT, RIGHT, LEFT, RIGHT, X, RB, RT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-467-8648",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
           ],
           "editionIds": [
             "story"
@@ -195,23 +542,63 @@
       "onlineOnly": false
     },
     {
-      "id": "gta-v-fall",
-      "title": "Skyfall",
-      "description": "Activates skyfall.",
+      "id": "gta-v-run",
+      "title": "Run faster",
+      "description": "Run faster.",
       "category": "player",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
         {
           "method": "typed_code",
-          "value": "SKYFALL",
+          "value": "CATCHME",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "TRIANGLE, LEFT, RIGHT, RIGHT, L2, L1, SQUARE",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "Y, LEFT, RIGHT, RIGHT, LT, LB, X",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-2288-463",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
           ],
           "editionIds": [
             "story"
@@ -222,23 +609,63 @@
       "onlineOnly": false
     },
     {
-      "id": "gta-v-explode",
-      "title": "Explosive bullets",
-      "description": "Activates explosive bullets.",
-      "category": "weapons",
+      "id": "gta-v-swim",
+      "title": "Swim faster",
+      "description": "Swim faster.",
+      "category": "player",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
         {
           "method": "typed_code",
-          "value": "HIGHEX",
+          "value": "GOTGILLS",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, L1, RIGHT, RIGHT, R2, LEFT, L2, RIGHT",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, LB, RIGHT, RIGHT, RT, LEFT, LT, RIGHT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-4684-4557",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
           ],
           "editionIds": [
             "story"
@@ -250,14 +677,16 @@
     },
     {
       "id": "gta-v-melee",
-      "title": "Explosive melee",
-      "description": "Activates explosive melee.",
+      "title": "Explosive melee attacks",
+      "description": "Explosive melee attacks.",
       "category": "weapons",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
@@ -270,6 +699,580 @@
           "editionIds": [
             "story"
           ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RIGHT, LEFT, X, TRIANGLE, R1, CIRCLE, CIRCLE, CIRCLE, L2",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RIGHT, LEFT, A, Y, RB, B, B, B, LT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-4684-2637",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-parachute",
+      "title": "Receive a parachute",
+      "description": "Receive a parachute.",
+      "category": "equipment",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "SKYDIVE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, RIGHT, L1, L2, R1, R2, R2, LEFT, LEFT, RIGHT, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, RIGHT, LB, LT, RB, RT, RT, LEFT, LEFT, RIGHT, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-759-3483",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-fall",
+      "title": "Fall from the sky",
+      "description": "Fall from the sky.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "SKYFALL",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT, L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LB, LT, RB, RT, LEFT, RIGHT, LEFT, RIGHT, LB, LT, RB, RT, LEFT, RIGHT, LEFT, RIGHT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-759-3255",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-drunk",
+      "title": "Intoxicated movement",
+      "description": "Intoxicated movement.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "LIQUOR",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "Y, RIGHT, RIGHT, LEFT, RIGHT, X, B, LEFT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-547-861",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-aim-slow",
+      "title": "Slow down aiming",
+      "description": "Slow down aiming.",
+      "category": "weapons",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "DEADEYE",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "SQUARE, L2, R1, TRIANGLE, LEFT, SQUARE, L2, RIGHT, X",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "X, LT, RB, Y, LEFT, X, LT, RIGHT, A",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-3323-393",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-explode",
+      "title": "Explosive ammunition",
+      "description": "Explosive ammunition.",
+      "category": "weapons",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "HIGHEX",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RIGHT, SQUARE, X, LEFT, R1, R2, LEFT, RIGHT, RIGHT, L1, L1, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RIGHT, X, A, LEFT, RB, RT, LEFT, RIGHT, RIGHT, LB, LB, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-444-439",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-fire",
+      "title": "Incendiary ammunition",
+      "description": "Incendiary ammunition.",
+      "category": "weapons",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "INCENDIARY",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, RIGHT, L1, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, RIGHT, LB, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-462-363-4279",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-slowmotion",
+      "title": "Slow down game speed",
+      "description": "Slow down game speed.",
+      "category": "world",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "SLOWMO",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "Y, LEFT, RIGHT, RIGHT, X, RT, RB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-756-966",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-weather",
+      "title": "Cycle weather patterns",
+      "description": "Cycle weather patterns.",
+      "category": "world",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "MAKEITRAIN",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R2, X, L1, L1, L2, L2, L2, SQUARE",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RT, A, LB, LB, LT, LT, LT, X",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-625-348-7246",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
         }
       ],
       "requiresUnlock": false,
@@ -277,14 +1280,16 @@
     },
     {
       "id": "gta-v-slide",
-      "title": "Slippery vehicle handling",
-      "description": "Activates slippery vehicle handling.",
+      "title": "Reduce vehicle traction",
+      "description": "Reduce vehicle traction.",
       "category": "vehicles",
       "verification": {
-        "status": "single_source_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
-          "v"
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
         ]
       },
       "inputs": [
@@ -293,6 +1298,986 @@
           "value": "SNOWDAY",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "Y, RB, RB, LEFT, RB, LB, RT, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-7669-329",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-director",
+      "title": "Open director mode",
+      "description": "Open director mode.",
+      "category": "world",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "JRTALENT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-5782-5368",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-black-phone",
+      "title": "Trigger nearby explosion via phone",
+      "description": "Trigger nearby explosion via phone.",
+      "category": "world",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "phone_number",
+          "value": "1-999-367-3767",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-dodo",
+      "title": "Spawn Dodo seaplane",
+      "description": "Spawn Dodo seaplane.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "EXTINCT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-398-4628",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-buzzard",
+      "title": "Spawn Buzzard helicopter",
+      "description": "Spawn Buzzard helicopter.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "BUZZOFF",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "B, B, LB, B, B, B, LB, LT, RB, Y, B, Y",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-2899-633",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-stunt-plane",
+      "title": "Spawn stunt plane",
+      "description": "Spawn stunt plane.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "BARNSTORM",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, RIGHT, L1, L2, LEFT, R1, L1, L1, LEFT, LEFT, X, TRIANGLE",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "B, RIGHT, LB, LT, LEFT, RB, LB, LB, LEFT, LEFT, A, Y",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-227-678-676",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-duster",
+      "title": "Spawn crop duster",
+      "description": "Spawn crop duster.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "FLYSPRAY",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RIGHT, LEFT, R1, R1, R1, LEFT, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RIGHT, LEFT, RB, RB, RB, LEFT, Y, Y, A, B, LB, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-3597-7729",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-kraken",
+      "title": "Spawn Kraken submarine",
+      "description": "Spawn Kraken submarine.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "BUBBLES",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-282-2537",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-deathcar",
+      "title": "Spawn Duke O Death car",
+      "description": "Spawn Duke O Death car.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "DEATHCAR",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-3328-4227",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-comet",
+      "title": "Spawn Comet sports car",
+      "description": "Spawn Comet sports car.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "COMET",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, CIRCLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RB, B, RT, RIGHT, LB, LT, A, A, X, RB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-266-38",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-rapidgt",
+      "title": "Spawn Rapid GT car",
+      "description": "Spawn Rapid GT car.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "RAPIDGT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R2, R2, L1, CIRCLE, RIGHT, L1, R1, RIGHT, LEFT, CIRCLE, R2",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RT, RT, LB, B, RIGHT, LB, RB, RIGHT, LEFT, B, RT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-727-4348",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-limo",
+      "title": "Spawn limousine",
+      "description": "Spawn limousine.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "VINEWOOD",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R2, RIGHT, L2, LEFT, LEFT, R1, L1, CIRCLE, RIGHT",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RT, RIGHT, LT, LEFT, LEFT, RB, LB, B, RIGHT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-8463-9663",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-pcj",
+      "title": "Spawn PCJ 600 motorcycle",
+      "description": "Spawn PCJ 600 motorcycle.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "OFFROAD",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, X, L1, CIRCLE, CIRCLE, L1, CIRCLE, R1, R2, L2, L1, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-762-538",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-sanchez",
+      "title": "Spawn Sanchez dirt bike",
+      "description": "Spawn Sanchez dirt bike.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "ROCKET",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "RB, RIGHT, LEFT, RIGHT, RT, LEFT, RIGHT, X, RIGHT, LT, LB, LB",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-633-7623",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-trash",
+      "title": "Spawn Trashmaster truck",
+      "description": "Spawn Trashmaster truck.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "TRASHED",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, R1, CIRCLE, R1, LEFT, LEFT, R1, L1, CIRCLE, RIGHT",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "B, RB, B, RB, LEFT, LEFT, RB, LB, B, RIGHT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-8727-433",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-caddy",
+      "title": "Spawn golf cart",
+      "description": "Spawn golf cart.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "HOLEIN1",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, L1, LEFT, R1, L2, X, R1, L1, CIRCLE, X",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "B, LB, LEFT, RB, LT, A, RB, LB, B, A",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-4653-461",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": false,
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-v-bmx",
+      "title": "Spawn BMX",
+      "description": "Spawn BMX.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-22",
+        "sourceIds": [
+          "gta5_gamesradar",
+          "gta5_ps",
+          "gta5_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "typed_code",
+          "value": "BANDIT",
+          "platformIds": [
+            "pc"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, TRIANGLE, R1, R2",
+          "platformIds": [
+            "ps3",
+            "ps4",
+            "ps5"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, X, B, Y, RB, RT",
+          "platformIds": [
+            "xbox-360",
+            "xbox-one",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        },
+        {
+          "method": "phone_number",
+          "value": "1-999-226-348",
+          "platformIds": [
+            "pc",
+            "ps4",
+            "ps5",
+            "xbox-one",
+            "xbox-series"
           ],
           "editionIds": [
             "story"

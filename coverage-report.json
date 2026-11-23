@@ -1,80 +1,16 @@
 {
-  "generatedOn": "2026-11-22",
-  "coverage": [
-    {
-      "gameId": "gta-iii",
-      "cheatEntries": 8,
-      "platformInputCounts": {
-        "pc": 8
-      },
-      "contentStatus": "research_sample_not_complete",
-      "needsReview": true
-    },
-    {
-      "gameId": "gta-vice-city",
-      "cheatEntries": 8,
-      "platformInputCounts": {
-        "pc": 8
-      },
-      "contentStatus": "research_sample_not_complete",
-      "needsReview": true
-    },
-    {
-      "gameId": "gta-san-andreas",
-      "cheatEntries": 11,
-      "platformInputCounts": {
-        "pc": 11
-      },
-      "contentStatus": "research_sample_not_complete",
-      "needsReview": true
-    },
-    {
-      "gameId": "gta-iv",
-      "cheatEntries": 3,
-      "platformInputCounts": {
-        "pc": 3,
-        "ps3": 3,
-        "xbox-360": 3
-      },
-      "contentStatus": "research_sample_not_complete",
-      "needsReview": true
-    },
-    {
-      "gameId": "gta-v",
-      "cheatEntries": 11,
-      "platformInputCounts": {
-        "pc": 11
-      },
-      "contentStatus": "research_sample_not_complete",
-      "needsReview": true
-    },
-    {
-      "gameId": "gta-vi",
-      "cheatEntries": 0,
-      "platformInputCounts": {},
-      "contentStatus": "no_codes_verified",
-      "needsReview": true
-    },
-    {
-      "gameId": "rdr2",
-      "cheatEntries": 4,
-      "platformInputCounts": {
-        "pc": 4,
-        "ps4": 4,
-        "xbox-one": 4
-      },
-      "contentStatus": "research_sample_not_complete",
-      "needsReview": true
-    },
-    {
-      "gameId": "minecraft",
-      "cheatEntries": 3,
-      "platformInputCounts": {
-        "pc": 3
-      },
-      "contentStatus": "research_sample_not_complete",
-      "needsReview": true
-    }
-  ],
-  "warning": "Counts represent research samples, not complete verified platform coverage."
+  "generatedAt": "2026-11-23",
+  "gameCounts": {
+    "gta-iii": 8,
+    "gta-vice-city": 8,
+    "gta-san-andreas": 11,
+    "gta-iv": 7,
+    "gta-v": 36,
+    "gta-vi": 20,
+    "rdr2": 4,
+    "minecraft": 3
+  },
+  "totalEntries": 97,
+  "deviceTestedGtaVI": 0,
+  "reportedGtaVI": 20
 }

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "gameId": "gta-san-andreas",
   "lastReviewed": "2026-11-22",
-  "contentStatus": "research_sample_not_complete",
-  "completeness": "partial",
+  "contentStatus": "research_expanded_not_device_tested",
+  "completeness": "partial_platform_expansion",
   "cheats": [
     {
       "id": "gta-san-andreas-health-money",
@@ -11,11 +11,13 @@
       "description": "Activates health armor and cash.",
       "category": "health",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "sa",
-          "sa2"
+          "sa2",
+          "sa_ps_gtamaster",
+          "sa_ps_vandal"
         ]
       },
       "inputs": [
@@ -24,6 +26,16 @@
           "value": "HESOYAM",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -39,11 +51,13 @@
       "description": "Activates equip jetpack.",
       "category": "vehicles",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "sa",
-          "sa2"
+          "sa2",
+          "sa_ps_gtamaster",
+          "sa_ps_vandal"
         ]
       },
       "inputs": [
@@ -52,6 +66,16 @@
           "value": "ROCKETMAN",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -67,11 +91,13 @@
       "description": "Activates spawn rhino tank.",
       "category": "vehicles",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "sa",
-          "sa2"
+          "sa2",
+          "sa_ps_gtamaster",
+          "sa_ps_vandal"
         ]
       },
       "inputs": [
@@ -80,6 +106,16 @@
           "value": "AIWPRTON",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"

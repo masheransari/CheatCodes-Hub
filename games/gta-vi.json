@@ -1,8 +1,647 @@
 {
   "schemaVersion": 1,
   "gameId": "gta-vi",
-  "lastReviewed": "2026-11-22",
-  "contentStatus": "no_codes_verified",
-  "completeness": "partial",
-  "cheats": []
+  "lastReviewed": "2026-11-23",
+  "contentStatus": "reported_inputs_not_device_tested",
+  "completeness": "partial_20_reported_inputs_more_not_published",
+  "cheats": [
+    {
+      "id": "gta-vi-money-250k",
+      "title": "$250,000",
+      "description": "Adds cash to the current session.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "UP, RIGHT, DOWN, LEFT, UP, LEFT, DOWN, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Complete the main story.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-drunk",
+      "title": "Drunk",
+      "description": "Applies a drunken effect to the protagonists.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "UP, LEFT, RIGHT, UP, UP, LEFT, RIGHT, UP, LEFT, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Spend $2,500 on alcohol.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-raise-heat",
+      "title": "Raise Heat Level",
+      "description": "Increases the area-wide heat level.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "LEFT, DOWN, RIGHT, DOWN, UP, DOWN, UP",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Escape a three-star wanted level 25 times.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-raise-wanted",
+      "title": "Raise Wanted Level",
+      "description": "Increases the current wanted level.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "LEFT, DOWN, RIGHT, DOWN, UP, RIGHT, UP",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Escape a three-star wanted level 50 times.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-unlimited-focus",
+      "title": "Unlimited Focus",
+      "description": "Prevents Focus from running down.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, UP, DOWN, UP, DOWN, UP, DOWN, UP, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Complete the main story.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-body-armor",
+      "title": "Body Armor",
+      "description": "Restores or grants body armor.",
+      "category": "player",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, LEFT, UP, UP, UP, UP, UP, DOWN, DOWN",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Complete 100 workouts.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-max-ammo",
+      "title": "Max Ammo",
+      "description": "Replenishes ammunition reserves.",
+      "category": "combat",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, UP, DOWN, LEFT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Shooting-range medal requirement is disputed between sources.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-infinite-ammo",
+      "title": "Infinite Ammo",
+      "description": "Stops ammunition from being consumed.",
+      "category": "combat",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, DOWN, DOWN, DOWN",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Earn 25 silver-or-better shooting-range medals.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-no-reload",
+      "title": "No Reload",
+      "description": "Removes the need to reload weapons.",
+      "category": "combat",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, DOWN, DOWN, UP",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Earn 25 shooting-range gold medals.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-attack-force",
+      "title": "Attack Force",
+      "description": "Launches targets backward when struck.",
+      "category": "combat",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, DOWN, UP, DOWN",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Complete the main story.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-exploding-balls",
+      "title": "Exploding Balls",
+      "description": "Causes sports balls to explode on impact.",
+      "category": "combat",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, DOWN, UP, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Damage 20 enemies with explosives.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-vehicle-force",
+      "title": "Vehicle Force",
+      "description": "Adds a powerful impact effect to vehicle collisions.",
+      "category": "combat",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, LEFT, UP, DOWN",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Defeat 25 enemies using a vehicle.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-maibatsu-boomazoom",
+      "title": "Maibatsu Boomazoom",
+      "description": "Spawns the specified vehicle.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "LEFT, UP, RIGHT, DOWN, LEFT, LEFT, UP, LEFT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Complete five shopping challenges.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-mtl-pumper",
+      "title": "MTL Pumper",
+      "description": "Spawns the specified vehicle.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "LEFT, UP, RIGHT, DOWN, LEFT, RIGHT, RIGHT, UP",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Discover the vehicle in the Progress menu.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-hvy-bulldozer",
+      "title": "HVY Bulldozer",
+      "description": "Spawns the specified vehicle.",
+      "category": "vehicles",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "LEFT, UP, RIGHT, DOWN, LEFT, RIGHT, RIGHT, DOWN",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Discover the vehicle in the Progress menu.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-cycle-weather",
+      "title": "Cycle Weather",
+      "description": "Switches to another weather condition.",
+      "category": "weather",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, RIGHT, UP, DOWN, RIGHT, UP, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Unlock requirement disputed: story completion or full-map discovery.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-cataclysm",
+      "title": "Cataclysm",
+      "description": "Applies a smoky scene filter.",
+      "category": "visual",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, RIGHT, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Discover Martha’s Vamos in the Progress menu.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-dollhouse",
+      "title": "Dollhouse",
+      "description": "Applies a saturated narrow-frame visual effect.",
+      "category": "visual",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, DOWN, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Spend eight hours with your partner.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-faded-glory",
+      "title": "Faded Glory",
+      "description": "Applies a vintage color-television visual effect.",
+      "category": "visual",
+      "verification": {
+        "status": "multi_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_heistintel_ps",
+          "gta6_vicecitytracker",
+          "gta6_heistintel_xbox"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, LEFT, RIGHT",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Rob 50 stores with your partner.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    },
+    {
+      "id": "gta-vi-pinhole",
+      "title": "Pinhole",
+      "description": "Applies a pinhole-camera visual effect.",
+      "category": "visual",
+      "verification": {
+        "status": "single_source_not_device_tested",
+        "lastReviewed": "2026-11-23",
+        "sourceIds": [
+          "gta6_vicecitytracker"
+        ]
+      },
+      "inputs": [
+        {
+          "method": "button_sequence",
+          "value": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, UP, DOWN",
+          "platformIds": [
+            "ps5",
+            "xbox-series"
+          ],
+          "editionIds": [
+            "story"
+          ]
+        }
+      ],
+      "requiresUnlock": true,
+      "unlockRequirement": "Clear 25 gang operations with your partner.",
+      "activationInstructions": "To enter: complete the story and the cheat-specific unlock condition; open the in-game phone with D-pad Up, use L1/R1 on PS5 or LB/RB on Xbox Series X|S, then enter the directional sequence. Published guides differ on shoulder-button timing.",
+      "onlineOnly": false
+    }
+  ]
 }

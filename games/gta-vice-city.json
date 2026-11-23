@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "gameId": "gta-vice-city",
   "lastReviewed": "2026-11-22",
-  "contentStatus": "research_sample_not_complete",
-  "completeness": "partial",
+  "contentStatus": "research_expanded_not_device_tested",
+  "completeness": "partial_platform_expansion",
   "cheats": [
     {
       "id": "gta-vice-city-health",
@@ -11,11 +11,13 @@
       "description": "Activates restore health.",
       "category": "health",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -24,6 +26,16 @@
           "value": "ASPIRINE",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R2, L1, CIRCLE, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -39,11 +51,13 @@
       "description": "Activates restore armor.",
       "category": "health",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -52,6 +66,16 @@
           "value": "PRECIOUSPROTECTION",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -67,11 +91,13 @@
       "description": "Activates spawn rhino tank.",
       "category": "vehicles",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -80,6 +106,16 @@
           "value": "PANZER",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -95,11 +131,13 @@
       "description": "Activates weapon set one.",
       "category": "weapons",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -108,6 +146,16 @@
           "value": "THUGSTOOLS",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -123,11 +171,13 @@
       "description": "Activates weapon set two.",
       "category": "weapons",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -136,6 +186,16 @@
           "value": "PROFESSIONALTOOLS",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -151,11 +211,13 @@
       "description": "Activates weapon set three.",
       "category": "weapons",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -164,6 +226,16 @@
           "value": "NUTTERTOOLS",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -179,11 +251,13 @@
       "description": "Activates clear wanted stars.",
       "category": "wanted",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -192,6 +266,16 @@
           "value": "LEAVEMEALONE",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"
@@ -207,11 +291,13 @@
       "description": "Activates raise wanted stars.",
       "category": "wanted",
       "verification": {
-        "status": "cross_referenced_not_device_tested",
+        "status": "multi_source_not_device_tested",
         "lastReviewed": "2026-11-22",
         "sourceIds": [
           "vc",
-          "vc2"
+          "vc2",
+          "vc_ps_gtaplace",
+          "vc_ps_vandal"
         ]
       },
       "inputs": [
@@ -220,6 +306,16 @@
           "value": "YOUWONTTAKEMEALIVE",
           "platformIds": [
             "pc"
+          ],
+          "editionIds": [
+            "classic"
+          ]
+        },
+        {
+          "method": "button_sequence",
+          "value": "R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT",
+          "platformIds": [
+            "ps2"
           ],
           "editionIds": [
             "classic"

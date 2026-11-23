@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.11.22.handoff1",
+  "dataVersion": "2026.11.23.gta6-reported1",
   "generatedAt": "2026-11-22",
   "publisher": "Independent reference project — not affiliated with publishers",
   "games": [
@@ -23,12 +23,12 @@
         "definitive"
       ],
       "dataFile": "games/gta-iii.json",
-      "dataStatus": "partial_research_sample",
+      "dataStatus": "research_not_device_tested",
       "localIconAsset": "assets/games/gta-iii/icon.webp",
       "localCoverAsset": "assets/games/gta-iii/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
-      "cheatCoverage": "partial",
-      "displayCheatCount": null,
+      "cheatCoverage": "partial_research_expanded",
+      "displayCheatCount": 8,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     },
     {
@@ -50,12 +50,12 @@
         "definitive"
       ],
       "dataFile": "games/gta-vice-city.json",
-      "dataStatus": "partial_research_sample",
+      "dataStatus": "research_not_device_tested",
       "localIconAsset": "assets/games/gta-vice-city/icon.webp",
       "localCoverAsset": "assets/games/gta-vice-city/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
-      "cheatCoverage": "partial",
-      "displayCheatCount": null,
+      "cheatCoverage": "partial_research_expanded",
+      "displayCheatCount": 8,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     },
     {
@@ -77,12 +77,12 @@
         "definitive"
       ],
       "dataFile": "games/gta-san-andreas.json",
-      "dataStatus": "partial_research_sample",
+      "dataStatus": "research_not_device_tested",
       "localIconAsset": "assets/games/gta-san-andreas/icon.webp",
       "localCoverAsset": "assets/games/gta-san-andreas/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
-      "cheatCoverage": "partial",
-      "displayCheatCount": null,
+      "cheatCoverage": "partial_research_expanded",
+      "displayCheatCount": 11,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     },
     {
@@ -103,12 +103,12 @@
         "base"
       ],
       "dataFile": "games/gta-iv.json",
-      "dataStatus": "partial_research_sample",
+      "dataStatus": "research_not_device_tested",
       "localIconAsset": "assets/games/gta-iv/icon.webp",
       "localCoverAsset": "assets/games/gta-iv/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
-      "cheatCoverage": "partial",
-      "displayCheatCount": null,
+      "cheatCoverage": "partial_research_expanded",
+      "displayCheatCount": 7,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     },
     {
@@ -133,12 +133,12 @@
         "story"
       ],
       "dataFile": "games/gta-v.json",
-      "dataStatus": "partial_research_sample",
+      "dataStatus": "research_not_device_tested",
       "localIconAsset": "assets/games/gta-v/icon.webp",
       "localCoverAsset": "assets/games/gta-v/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
-      "cheatCoverage": "partial",
-      "displayCheatCount": null,
+      "cheatCoverage": "partial_research_expanded",
+      "displayCheatCount": 36,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     },
     {
@@ -158,12 +158,12 @@
         "base"
       ],
       "dataFile": "games/gta-vi.json",
-      "dataStatus": "awaiting_verification",
+      "dataStatus": "reported_not_device_tested",
       "localIconAsset": "assets/games/gta-vi/icon.webp",
       "localCoverAsset": "assets/games/gta-vi/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
-      "cheatCoverage": "none_verified",
-      "displayCheatCount": null,
+      "cheatCoverage": "20_published_sequences_not_tested;_more_unpublished",
+      "displayCheatCount": 20,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     },
     {
@@ -189,7 +189,7 @@
       "localCoverAsset": "assets/games/rdr2/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
       "cheatCoverage": "partial",
-      "displayCheatCount": null,
+      "displayCheatCount": 4,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     },
     {
@@ -220,7 +220,7 @@
       "localCoverAsset": "assets/games/minecraft/cover.webp",
       "imageAttribution": "Original generated illustration; not official game artwork",
       "cheatCoverage": "partial",
-      "displayCheatCount": null,
+      "displayCheatCount": 3,
       "platformDisplayPolicy": "show_only_if_inputs_exist"
     }
   ]
